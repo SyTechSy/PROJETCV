@@ -1,0 +1,99 @@
+/* Mon selecteur universel  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* tout mes contenus  */
+
+.container {
+    display: flex;
+}
+
+/* Root consiste de stocker mes couleurs  */
+
+:root {
+    --bg-cadre : #1B304D;
+    --bare: #3491B3;
+    --point: #D7D7D7;
+}
+
+/* Les contenus de mon image  */
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* mon image  */
+
+.img img{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+/* Le petit bare qui au dessous de mes informations  */
+
+.bare {
+    width: 50px;
+    height: 4px;
+    background-color: var(--bare);
+}
+
+/* Mon Gauche de ma page */
+
+.left {
+    width: 300px;
+    background-color: var(--bg-cadre);
+    height: 200vh;
+}
+
+/* Information  */
+
+.information {
+    margin: 30px 0 10px 30px;
+}
+
+/* Information de mon titre h2  */
+
+.information h2 {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 5px;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+}
+
+/* Information de mon paragraphe */
+
+.information p {
+    margin: 20px 0;
+    color: #fff;
+    line-height: 20px;
+    font-size: 15px;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+
+
+/* Cote droit de mon page  */
+
+main {
+    margin: 40px 0 0 30px;
+}
+
+.title h1 {
+    text-transform: uppercase;
+    padding-bottom: 5px;    
+}
+
+.title h3 {
+    text-transform: uppercase;
+    color: var(--bare);
+    font-size: 17px;
+}
