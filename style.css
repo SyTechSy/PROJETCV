@@ -6,6 +6,14 @@
     font-family: sans-serif;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* tout mes contenus  */
 
 .container {
@@ -32,9 +40,9 @@
 /* mon image  */
 
 .img img{
-    width: 200px;
+    width: 180px;
     border-radius: 50%;
-    height: 200px;
+    height: 180px;
 }
 
 /* Le petit bare qui au dessous de mes informations  */
@@ -50,7 +58,13 @@
 .left {
     width: 300px;
     background-color: var(--bg-cadre);
-    height: 200vh;
+    height: 150vh;
+    transition: all .8s ease-in;
+}
+
+.right {
+    border: 2px solid var(--bg-cadre);
+    padding: 0 20px 0 0;
 }
 
 /* Information  */
@@ -96,4 +110,179 @@ main {
     text-transform: uppercase;
     color: var(--bare);
     font-size: 17px;
+}
+
+.para-main {
+    margin: 15px 0;
+    line-height: 20px;
+}
+
+.information-right {
+    margin: 15px 0;
+}
+
+.information-right h2 {
+    text-transform: uppercase;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.contenu-experience h5 {
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.contenu-experience h4 {
+    font-size: 15px;
+    color: var(--bare);
+    padding-bottom: 10px;
+}
+
+.contenu-experience .para-list {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.contenu-experience .list {
+    margin: 6px 0 15px 0;
+    margin-left: 16px;
+}
+
+.contenu-experience .list li {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.contenu-experience .para-list2 {
+    font-size: 15px;
+    font-weight: 510;
+}
+
+.name-point {
+    display: flex;
+    align-items: center;
+}
+
+.point1 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    position: relative;
+}
+
+.point1 .ront {
+    width: 13px;
+    height: 13px;
+    background-color: var(--point);
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.point2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.point2 .ront2{
+    width: 13px;
+    height: 13px;
+    background-color: var(--bare);
+    border-radius: 50px;
+    margin: 0 2px;
+}
+
+.point1_copy {
+    margin-left: 34px;
+}
+
+.container_ront .left-rond .name-point,
+.container_ront .right-rond .name-point
+
+{
+    padding-bottom: 10px;
+}
+
+.point2_copy {
+    margin-left: 37px;
+}
+
+.point3_copy {
+    margin-left: 56px;
+}
+.point4_copy {
+    margin-left: 12px;
+}
+
+.container_ront {
+    display: flex;
+    align-items: center;
+    margin: 50px 0 0;
+}
+
+.container_ront .right-rond {
+    margin-left: 80px;
+}
+
+.point5_copy {
+    margin-left: 12px;
+}
+.point6_copy {
+    margin-left: 37px;
+}
+.point7_copy {
+    margin-left: 55px;
+}
+.point8_copy {
+    margin-left: 47px;
+}
+.point9_copy {
+    margin-left: 46px;
+}
+
+.toggle {
+    width: 30px;
+    height: 4px;
+    background-color: #1B304D;
+    margin: 6px 0 ;
+}
+
+.container-toggle{
+    display: none;
+}
+
+.title-titre {
+    display: flex;
+    align-items: center;
+}
+
+.container-close {
+    margin: 10px 30px 20px 10px;
+    float: right;
+    display: none;
+}
+
+.close {
+    background-color: #fff;
+    width: 35px;
+    height: 4px;
+}
+
+.left-close {
+    transform: rotate(60deg);
+}
+
+.right-close {
+    transform: rotate(-60deg);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 970px) {
+    
 }
