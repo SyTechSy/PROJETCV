@@ -6,6 +6,8 @@
     font-family: sans-serif;
 }
 
+/* tout les contenu de ma page  */
+
 body {
     width: 100%;
     height: 100%;
@@ -101,10 +103,14 @@ main {
     margin: 40px 0 0 30px;
 }
 
+/* titre de mon nom  */
+
 .title h1 {
     text-transform: uppercase;
     padding-bottom: 5px;    
 }
+
+/* Sous sous titre de ma page  */
 
 .title h3 {
     text-transform: uppercase;
@@ -112,10 +118,14 @@ main {
     font-size: 17px;
 }
 
+/* Paragraphe de mon profils  */
+
 .para-main {
     margin: 15px 0;
     line-height: 20px;
 }
+
+/* Côte de mon expérience professionnelle  */
 
 .information-right {
     margin: 15px 0;
@@ -126,6 +136,8 @@ main {
     font-size: 17px;
     padding-bottom: 5px;
 }
+
+/* tout les contenus de mon experience  */
 
 .contenu-experience h5 {
     font-size: 15px;
@@ -158,6 +170,8 @@ main {
     font-weight: 510;
 }
 
+/* le rond de mon competence  */
+
 .rond {
     width: 10px;
     height: 10px;
@@ -167,13 +181,19 @@ main {
     margin-left: 5px;
 }
 
+/* mon footer le pied de mon page  */
+
 .footer {
     display: flex;
 }
 
+/* je vais annuler un point  */
+
 .rond-color {
     background-color: #9d9494;
 }
+
+/* container global de mon point  */
 
 .container-point {
     display: grid;
@@ -201,6 +221,18 @@ main {
     margin-left: 20px;
 }
 
+/* date de mon experience  */
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datepara {
+    font-size: 13px;
+    font-weight: 400;
+}
 
 
 
